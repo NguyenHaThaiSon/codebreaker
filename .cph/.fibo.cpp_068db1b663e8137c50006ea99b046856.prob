@@ -1,0 +1,1 @@
+{"name":"Local: fibo","url":"c:\\Users\\This PC\\OneDrive\\Máy tính\\Programming\\CP\\codebreaker\\fibo.cpp","tests":[{"id":1706361391680,"input":"6","output":"0\n1\n1\n2\n3\n5\n8"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\This PC\\OneDrive\\Máy tính\\Programming\\CP\\codebreaker\\fibo.cpp","group":"local","local":true}
