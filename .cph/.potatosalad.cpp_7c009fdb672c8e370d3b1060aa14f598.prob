@@ -1,0 +1,1 @@
+{"name":"Local: potatosalad","url":"c:\\Users\\This PC\\OneDrive\\Máy tính\\Programming\\CP\\codebreaker\\potatosalad.cpp","tests":[{"id":1706425545619,"input":"4 2\n9 1 4 12","output":"21"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\This PC\\OneDrive\\Máy tính\\Programming\\CP\\codebreaker\\potatosalad.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: boxispull","url":"c:\\Users\\This PC\\OneDrive\\Máy tính\\Programming\\CP\\codebreaker\\boxispull.cpp","tests":[{"id":1706427951741,"input":"2\n1 2 2 2\n1 1 2 2","output":"1\n4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\This PC\\OneDrive\\Máy tính\\Programming\\CP\\codebreaker\\boxispull.cpp","group":"local","local":true}
