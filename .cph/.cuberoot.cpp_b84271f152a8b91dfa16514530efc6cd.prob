@@ -1,0 +1,1 @@
+{"name":"Local: cuberoot","url":"c:\\Users\\This PC\\OneDrive\\Máy tính\\Programming\\CP\\codebreaker\\cuberoot.cpp","tests":[{"id":1706854284953,"input":"5\n1 8 27 64 216 ","output":"1\n2\n3\n4\n6"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\This PC\\OneDrive\\Máy tính\\Programming\\CP\\codebreaker\\cuberoot.cpp","group":"local","local":true}

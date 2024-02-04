@@ -1,4 +1,6 @@
-#include<iostream>
+#include <iostream>
+#include <bits/stdc++.h>
+#include <algorithm>
 using namespace std;
 
 int main()
@@ -7,21 +9,30 @@ int main()
     cin >> N;
 
     int arr[N];
-    for (int i = 0; i < N; ++i) {
+    for (int i = 0; i < N; ++i)
+    {
         cin >> arr[i];
     }
 
-    int tracker = 0;
-    for (int i = 0; i < N; ++i) {
-        if (i != 0 || i != N) {
-            if (arr[i + 1] >= arr[i]) {
-                tracker++;
-            } else {
-                tracker = 0;
+    int lis[N];
+    for (int i = 0; i < N; ++i)
+    {
+        lis[i] = 1;
+        for (int j = 0; j < i; ++j)
+        {
+            if (arr[j] < arr[i])
+            {
+                lis[i] = max(lis[i], lis[j] + 1);
             }
         }
     }
+    int ans = 0;
+    for (int i = 0; i < N; ++i)
+    {
+        ans = max(ans, lis[i]);
+    }
 
-    cout << tracker;
+    cout << ans;
+
     return 0;
 }

@@ -1,0 +1,1 @@
+{"name":"Local: xmas","url":"c:\\Users\\This PC\\OneDrive\\Máy tính\\Programming\\CP\\codebreaker\\xmas.cpp","tests":[{"id":1706628740360,"input":"4\n2\n3\n4\n1","output":"4\n1\n2\n3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\This PC\\OneDrive\\Máy tính\\Programming\\CP\\codebreaker\\xmas.cpp","group":"local","local":true}
