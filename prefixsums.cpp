@@ -1,0 +1,37 @@
+#include <iostream>
+using namespace std;
+
+// C++ program for Implementing prefix sum array
+#include <bits/stdc++.h>
+using namespace std;
+
+// Fills prefix sum array
+void fillPrefixSum(int arr[], int n, int prefixSum[])
+{
+    prefixSum[0] = arr[0];
+    // Adding present element with previous element
+    for (int i = 1; i < n; i++)
+        prefixSum[i] = prefixSum[i - 1] + arr[i];
+}
+
+// Driver Code
+int main()
+{
+    int N, Q;
+    cin >> N >> Q;
+
+    int arr[N];
+    for (int i = 0; i < N; ++i)
+    {
+        cin >> arr[i];
+    }
+    int n = sizeof(arr) / sizeof(arr[0]);
+    int prefixSum[n];
+
+    // Function call
+    fillPrefixSum(arr, n, prefixSum);
+    for (int i = 0; i < n; i++)
+        cout << prefixSum[i] << " ";
+}
+
+// This code is contributed by Aditya Kumar (adityakumar129)

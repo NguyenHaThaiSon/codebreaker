@@ -1,0 +1,1 @@
+{"name":"Local: 7up","url":"c:\\Users\\This PC\\OneDrive\\Máy tính\\Programming\\CP\\codebreaker\\7up.cpp","tests":[{"id":1707620282155,"input":"9 10 2","output":"2\n11\n20\n29\n38\nUP!\nUP!\n65\nUP!\n83"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\This PC\\OneDrive\\Máy tính\\Programming\\CP\\codebreaker\\7up.cpp","group":"local","local":true}
